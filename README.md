@@ -19,3 +19,7 @@ Version control is especially useful to synchronize teamwork methods for a hacka
 *Side note: VS Code is developed on the Electron. Electron is an open-source framework that allows developers to build cross-platform desktop applications using web technologies such as HTML, CSS, and JavaScript. It combines the Chromium rendering engine and the Node.js runtime, enabling developers to create applications that can run on Windows, macOS, and Linux with a single codebase.*
 
 *Electron was originally developed by GitHub and is now maintained by the Electron team at GitHub. It has gained popularity due to its ability to simplify the development process for desktop applications, allowing web developers to leverage their existing skills to create native-like applications. Some well-known applications built with Electron include Visual Studio Code, Slack, and Discord, as well as the AI Coding assistants Cursor and Windsurf.*
+
+# Quick look at git
+Since both Visual Studio Code (VSCode) and GitHub utilize Git, we will begin with a brief overview of Git. The illustration below provides a comprehensive overview of the main Git commands.
+![Git basics](./images/0-Git_basics.png)
