@@ -153,10 +153,12 @@ git init`
 
 **4 Synchronize**
 - Now we need to merge local code with remote code. This step is critical otherwise we won't be able to push code on GitHub. **You must call 'git pull' before pushing your code.**
+
 `git pull origin main --allow-unrelated-histories`
 
 **5 Commit your code**
 - Finally, push all changes on GitHub
+
 `git push --force-with-lease -u origin main`
 
 
