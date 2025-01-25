@@ -43,3 +43,13 @@ Command example:
 ``` zsh
 git clone https://github.com/user/repo.git
 ```
+## Use Git clone from VSCode
+The following procedure makes sure that you have no surprise to do version control from inside VSCode.
+
+1. In the repository page in Github web site, click on the big green button labelled "Code" and copy the URL
+2. In VSCode, navigate to the local folder where you want the cloned repository to be
+3. In VSCode, type Cmd-Shift-P to display the command popup, choose the command Git:Clone, paste the URL and hit Return. 
+4. Choose the local folder inside which the cloned repository will be store and hit Choose. The cloned repository will appear at the desired storage location.
+5. Once you have worked with your code in VSCode, you can Commit in your local git and Sync the files to the remote repository, directly from VSCode.
+
+For most of the development work, the console commands below will not be needed.
