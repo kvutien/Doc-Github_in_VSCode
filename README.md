@@ -161,7 +161,21 @@ git init`
 
 `git push --force-with-lease -u origin main`
 
+## Miscellaneous
+- `git config --list`: list all git settings applicable at this point
+- `git config --global user.name "kvutien"`: set user name applicable for all folders
+- `git config --global user.email 32614226+kvutien@users.noreply.github.com`: set my email address used in commits, applicable for all folders
+- `git config --show-origin user.email`: display the file that contains a particular setting (here `user.email`) applicable at this point
+- `git remote add machupicchu [REMOTE URL]` : give a name to a remote URL
+- `git diff origin/main main`: compare the remote git and the local git
+- `git rm -r --cached client/node_modules` : to remove from git a folder staged and committed by mistake, typically the folder `client/node_modules`,
 
 
+Then commit and push the new git: 
+``` zsh
+•	git commit -m "remove node_modules"
+•	git push -u origin main 
+```
+(`-u` means "set as upstream")
 
 
