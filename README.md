@@ -1,9 +1,9 @@
-# Github Version Control in VSCode
+# Github Version Control in VS Code
 *(January 2025)*
 
-The Integrated Development Environment (IDE) Visual Studio Code (VSCode) supports version control for code files through integration with Git and GitHub. However, using external Git commands via the console alongside the Git commands available in the VSCode menu can lead to conflicts. The following notes outline the VSCode commands for managing version control effectively.
+The Integrated Development Environment (IDE) Visual Studio Code (VS Code) supports version control for code files through integration with Git and GitHub. However, using external Git commands via the console alongside the Git commands available in the VS Code menu can lead to conflicts. The following notes outline the VS Code commands for managing version control effectively.
 
-The current version of VSCode I'm using is:
+The current version of VS Code I'm using is:
 - Version: 1.96.4 (Universal)
 - Commit: 3 cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba
 - Date: 2025-01-16T 00:16:19.038Z
@@ -21,7 +21,7 @@ Version control is especially useful to synchronize teamwork methods for a hacka
 *Electron was originally developed by GitHub and is now maintained by the Electron team at GitHub. It has gained popularity due to its ability to simplify the development process for desktop applications, allowing web developers to leverage their existing skills to create native-like applications. Some well-known applications built with Electron include Visual Studio Code, Slack, and Discord, as well as the AI Coding assistants Cursor and Windsurf.*
 
 # Quick look at git
-Since both Visual Studio Code (VSCode) and GitHub utilize Git, we will begin with a brief overview of Git. The illustration below provides a comprehensive overview of the main Git commands.
+Since both Visual Studio Code (VS Code) and GitHub utilize Git, we will begin with a brief overview of Git. The illustration below provides a comprehensive overview of the main Git commands.
 ![Git basics](./images/0-Git_basics.png)
 
 ## Github Fork, start from a repo of someone else (more often)
@@ -43,13 +43,13 @@ Command example:
 ``` zsh
 git clone https://github.com/user/repo.git
 ```
-## Use Git clone from VSCode
-The following procedure makes sure that you have no surprise to do version control from inside VSCode.
+## Use Git clone from VS Code
+The following procedure makes sure that you have no surprise to do version control from inside VS Code.
 
 1. In the repository page in Github web site, click on the big green button labelled "Code" and copy the URL
-2. In VSCode, navigate to the local folder where you want the cloned repository to be
-3. In VSCode, type Cmd-Shift-P to display the command popup, choose the command Git:Clone, paste the URL and hit Return. 
+2. In VS Code, navigate to the local folder where you want the cloned repository to be
+3. In VS Code, type Cmd-Shift-P to display the command popup, choose the command Git:Clone, paste the URL and hit Return. 
 4. Choose the local folder inside which the cloned repository will be store and hit Choose. The cloned repository will appear at the desired storage location.
-5. Once you have worked with your code in VSCode, you can Commit in your local git and Sync the files to the remote repository, directly from VSCode.
+5. Once you have worked with your code in VS Code, you can Commit in your local git and Sync the files to the remote repository, directly from VS Code.
 
 For most of the development work, the console commands below will not be needed.
